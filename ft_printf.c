@@ -85,3 +85,5 @@ int ft_printf(const char *str, ...)
 //     // printf(" makeft %i\n", ft_printf("a%d%sa%d", n, memset(s2, '1', 2147483646), n));
 //     // printf("\n");
 // }
+
+
