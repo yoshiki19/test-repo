@@ -51,6 +51,8 @@ int ft_printf(const char *str, ...)
     return (pf_len);
 }
 
+
+
 // int main(void)
 // {
 //     // char s[10] = "aiueo";
