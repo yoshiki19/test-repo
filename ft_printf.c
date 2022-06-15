@@ -71,19 +71,24 @@ int ft_printf(const char *str, ...)
 // }
 
 
-int main(void)
-{
-    int n;
 
-    n = 0;
-    printf("%s%s\n", "INT_MAX","+++++++++++++++++++++++++++");
-    char *s1 = (char *)malloc(sizeof(char) * (2147483648));
-    // printf(" origin %i\n", printf("%s",memset(s1, '1', INT_MAX)));
-    printf(" makeft %i\n", ft_printf("%s",memset(s1, '1', INT_MAX)));
-    printf("\n");
 
-    // char *s2 = (char *)malloc(sizeof(char) * (2147483647));
-    // printf(" origin %i\n", printf("a%d%sa%d", n, memset(s2, '1', 2147483646), n));
-    // printf(" makeft %i\n", ft_printf("a%d%sa%d", n, memset(s2, '1', 2147483646), n));
-    // printf("\n");
-}
+
+// int main(void)
+// {
+//     int n;
+
+//     n = 0;
+//     printf("%s%s\n", "INT_MAX","+++++++++++++++++++++++++++");
+//     char *s1 = (char *)malloc(sizeof(char) * (2147483648));
+//     // printf(" origin %i\n", printf("%s",memset(s1, '1', INT_MAX)));
+//     printf(" makeft %i\n", ft_printf("%s",memset(s1, '1', INT_MAX)));
+//     printf("\n");
+
+//     // char *s2 = (char *)malloc(sizeof(char) * (2147483647));
+//     // printf(" origin %i\n", printf("a%d%sa%d", n, memset(s2, '1', 2147483646), n));
+//     // printf(" makeft %i\n", ft_printf("a%d%sa%d", n, memset(s2, '1', 2147483646), n));
+//     // printf("\n");
+// }
+
+
